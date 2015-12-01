@@ -1,6 +1,6 @@
 <section class="well">
     <div class="container center">
-        <h3 class="secondary4-color">Welcome!</h3>
+        <h3 class="secondary4-color">Как мы работаем</h3>
 
         <div class="row">
             <div data-wow-delay="0.8s" class="col-md-3 col-xs-6 col-sm-3 wow fadeInRight">

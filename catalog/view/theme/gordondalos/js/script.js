@@ -9,18 +9,18 @@ function isIE() {
 
 /* cookie.JS
  ========================================================*/
-include('js/jquery.cookie.js');
+include('catalog/view/theme/gordondalos/js/jquery.cookie.js');
 
 /* Easing library
  ========================================================*/
-include('js/jquery.easing.1.3.js');
+include('catalog/view/theme/gordondalos/js/jquery.easing.1.3.js');
 
 /* PointerEvents
  ========================================================*/
 ;
 (function ($) {
     if (isIE() && isIE() < 11) {
-        include('js/pointer-events.js');
+        include('catalog/view/theme/gordondalos/js/pointer-events.js');
         $('html').addClass('lt-ie11');
         $(document).ready(function () {
             PointerEventsPolyfill.initialize({});
@@ -34,7 +34,7 @@ include('js/jquery.easing.1.3.js');
 (function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
-        include('js/tmstickup.js');
+        include('catalog/view/theme/gordondalos/js/tmstickup.js');
 
         $(document).ready(function () {
             $('#stuck_container').TMStickUp({})
@@ -48,7 +48,7 @@ include('js/jquery.easing.1.3.js');
 (function ($) {
     var o = $('html');
     if (o.hasClass('desktop')) {
-        include('js/jquery.ui.totop.js');
+        include('catalog/view/theme/gordondalos/js/jquery.ui.totop.js');
 
         $(document).ready(function () {
             $().UItoTop({
@@ -65,7 +65,7 @@ include('js/jquery.easing.1.3.js');
 (function ($) {
     var o = $('[data-equal-group]');
     if (o.length > 0) {
-        include('js/jquery.equalheights.js');
+        include('catalog/view/theme/gordondalos/js/jquery.equalheights.js');
     }
 })(jQuery);
 
@@ -86,77 +86,77 @@ include('js/jquery.easing.1.3.js');
  ========================================================*/
 ;
 (function ($) {
-    include('js/superfish.js');
+    include('catalog/view/theme/gordondalos/js/superfish.js');
 })(jQuery);
 
 /* Navbar
  ========================================================*/
 ;
 (function ($) {
-    include('js/jquery.rd-navbar.js');
+    include('catalog/view/theme/gordondalos/js/jquery.rd-navbar.js');
 })(jQuery);
 
 
-/* Google Map
- ========================================================*/
-;
-(function ($) {
-    var o = document.getElementById("google-map");
-    if (o) {
-        include('//maps.google.com/maps/api/js?sensor=false');
-        include('js/jquery.rd-google-map.js');
-
-        $(document).ready(function () {
-            var o = $('#google-map');
-            if (o.length > 0) {
-                o.googleMap({
-                    styles: [{
-                        "featureType": "administrative.locality",
-                        "elementType": "all",
-                        "stylers": [{"hue": "#2c2e33"}, {"saturation": 7}, {"lightness": 19}, {"visibility": "on"}]
-                    }, {
-                        "featureType": "landscape",
-                        "elementType": "all",
-                        "stylers": [{"hue": "#ffffff"}, {"saturation": -100}, {"lightness": 100}, {"visibility": "simplified"}]
-                    }, {
-                        "featureType": "poi",
-                        "elementType": "all",
-                        "stylers": [{"hue": "#ffffff"}, {"saturation": -100}, {"lightness": 100}, {"visibility": "off"}]
-                    }, {
-                        "featureType": "poi",
-                        "elementType": "labels.text.fill",
-                        "stylers": [{"visibility": "on"}]
-                    }, {
-                        "featureType": "road",
-                        "elementType": "geometry",
-                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": 31}, {"visibility": "simplified"}]
-                    }, {
-                        "featureType": "road",
-                        "elementType": "labels",
-                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": 31}, {"visibility": "on"}]
-                    }, {
-                        "featureType": "road.arterial",
-                        "elementType": "labels",
-                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": -2}, {"visibility": "simplified"}]
-                    }, {
-                        "featureType": "road.local",
-                        "elementType": "geometry",
-                        "stylers": [{"hue": "#e9ebed"}, {"saturation": -90}, {"lightness": -8}, {"visibility": "simplified"}]
-                    }, {
-                        "featureType": "transit",
-                        "elementType": "all",
-                        "stylers": [{"hue": "#e9ebed"}, {"saturation": 10}, {"lightness": 69}, {"visibility": "on"}]
-                    }, {
-                        "featureType": "water",
-                        "elementType": "all",
-                        "stylers": [{"hue": "#e9ebed"}, {"saturation": -78}, {"lightness": 67}, {"visibility": "simplified"}]
-                    }]
-                });
-            }
-        });
-    }
-})
-(jQuery);
+///* Google Map
+// ========================================================*/
+//;
+//(function ($) {
+//    var o = document.getElementById("google-map");
+//    if (o) {
+//        include('//maps.google.com/maps/api/js?sensor=false');
+//        include('catalog/view/theme/gordondalos/js/jquery.rd-google-map.js');
+//
+//        $(document).ready(function () {
+//            var o = $('#google-map');
+//            if (o.length > 0) {
+//                o.googleMap({
+//                    styles: [{
+//                        "featureType": "administrative.locality",
+//                        "elementType": "all",
+//                        "stylers": [{"hue": "#2c2e33"}, {"saturation": 7}, {"lightness": 19}, {"visibility": "on"}]
+//                    }, {
+//                        "featureType": "landscape",
+//                        "elementType": "all",
+//                        "stylers": [{"hue": "#ffffff"}, {"saturation": -100}, {"lightness": 100}, {"visibility": "simplified"}]
+//                    }, {
+//                        "featureType": "poi",
+//                        "elementType": "all",
+//                        "stylers": [{"hue": "#ffffff"}, {"saturation": -100}, {"lightness": 100}, {"visibility": "off"}]
+//                    }, {
+//                        "featureType": "poi",
+//                        "elementType": "labels.text.fill",
+//                        "stylers": [{"visibility": "on"}]
+//                    }, {
+//                        "featureType": "road",
+//                        "elementType": "geometry",
+//                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": 31}, {"visibility": "simplified"}]
+//                    }, {
+//                        "featureType": "road",
+//                        "elementType": "labels",
+//                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": 31}, {"visibility": "on"}]
+//                    }, {
+//                        "featureType": "road.arterial",
+//                        "elementType": "labels",
+//                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": -2}, {"visibility": "simplified"}]
+//                    }, {
+//                        "featureType": "road.local",
+//                        "elementType": "geometry",
+//                        "stylers": [{"hue": "#e9ebed"}, {"saturation": -90}, {"lightness": -8}, {"visibility": "simplified"}]
+//                    }, {
+//                        "featureType": "transit",
+//                        "elementType": "all",
+//                        "stylers": [{"hue": "#e9ebed"}, {"saturation": 10}, {"lightness": 69}, {"visibility": "on"}]
+//                    }, {
+//                        "featureType": "water",
+//                        "elementType": "all",
+//                        "stylers": [{"hue": "#e9ebed"}, {"saturation": -78}, {"lightness": 67}, {"visibility": "simplified"}]
+//                    }]
+//                });
+//            }
+//        });
+//    }
+//})
+//(jQuery);
 
 /* WOW
  ========================================================*/
@@ -166,7 +166,7 @@ include('js/jquery.easing.1.3.js');
 
     if ((navigator.userAgent.toLowerCase().indexOf('msie') == -1 ) || (isIE() && isIE() > 9)) {
         if (o.hasClass('desktop')) {
-            include('js/wow.js');
+            include('catalog/view/theme/gordondalos/js/wow.js');
 
             $(document).ready(function () {
                 new WOW().init();
@@ -179,8 +179,8 @@ include('js/jquery.easing.1.3.js');
  =============================================*/
 ;
 (function ($) {
-    include('js/mailform/jquery.form.min.js');
-    include('js/mailform/jquery.rd-mailform.min.c.js');
+    include('catalog/view/theme/gordondalos/js/mailform/jquery.form.min.js');
+    include('catalog/view/theme/gordondalos/js/mailform/jquery.rd-mailform.min.c.js');
 })(jQuery);
 
 /* Orientation tablet fix
@@ -236,7 +236,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 (function ($) {
     var o = $('.search-form, #search-results');
     if (o.length > 0) {
-        include('js/TMSearch.js');
+        include('catalog/view/theme/gordondalos/js/TMSearch.js');
     }
 })(jQuery);
 /* Owl Carousel
@@ -245,7 +245,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 (function ($) {
     var o = $('.owl-carousel');
     if (o.length > 0) {
-        include('js/owl.carousel.min.js');
+        include('catalog/view/theme/gordondalos/js/owl.carousel.min.js');
         $(document).ready(function () {
             o.owlCarousel({
                 margin: 30,
@@ -260,39 +260,10 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         });
     }
 })(jQuery);
-/* Style Switcher
- =============================================*/
-;(function ($) {
-    include('js/jquery.rd-styleswitcher.js');
-    $(document).ready(function () {
-        $.rdstyleswitcher({
-            schemes: [
-                {
-                    'id': 'Scheme 1',
-                    'icon': 'images/sh-1.jpg'
-                },
-                {
-                    'id': 'Scheme 2',
-                    'url': 'css/colorScheme-1.css',
-                    'icon': 'images/sh-2.jpg'
-                },
-                {
-                    'id': 'Scheme 3',
-                    'url': 'css/colorScheme-2.css',
-                    'icon': 'images/sh-3.jpg'
-                },
-                {
-                    'id': 'Scheme 4',
-                    'url': 'css/colorScheme-3.css',
-                    'icon': 'images/sh-4.jpg'
-                }
-            ]
-        });
-    });
-})(jQuery);
+
 /* Parallax
  =============================================*/
 ;
 (function ($) {
-    include('js/jquery.rd-parallax.js');
+    include('catalog/view/theme/gordondalos/js/jquery.rd-parallax.js');
 })(jQuery);

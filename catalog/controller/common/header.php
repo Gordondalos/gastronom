@@ -1,6 +1,34 @@
 <?php
 class ControllerCommonHeader extends Controller {
 	public function index() {
+
+
+		$this->load->model('catalog/information');
+
+		$data['informations'] = array();
+
+		foreach ($this->model_catalog_information->getInformations() as $result) {
+			if ($result['bottom']) {
+				$data['informations'][] = array(
+					'title' => $result['title'],
+					'href'  => $this->url->link('information/information', 'information_id=' . $result['information_id'])
+				);
+			}
+		}
+
+		$data['contact'] = $this->url->link('information/contact');
+		$data['return'] = $this->url->link('account/return/add', '', 'SSL');
+		$data['sitemap'] = $this->url->link('information/sitemap');
+		$data['manufacturer'] = $this->url->link('product/manufacturer');
+		$data['voucher'] = $this->url->link('account/voucher', '', 'SSL');
+		$data['affiliate'] = $this->url->link('affiliate/account', '', 'SSL');
+		$data['special'] = $this->url->link('product/special');
+		$data['account'] = $this->url->link('account/account', '', 'SSL');
+		$data['order'] = $this->url->link('account/order', '', 'SSL');
+		$data['wishlist'] = $this->url->link('account/wishlist', '', 'SSL');
+		$data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
+
+
 		// Analytics
 		$this->load->model('extension/extension');
 

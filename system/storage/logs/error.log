@@ -1,0 +1,12 @@
+2015-12-01 12:41:47 - PHP Warning:  include(../parts/header.php): failed to open stream: No such file or directory in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 196
+2015-12-01 12:41:47 - PHP Warning:  include(): Failed opening '../parts/header.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 196
+2015-12-01 12:42:12 - PHP Warning:  include(../../parts/header.php): failed to open stream: No such file or directory in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 196
+2015-12-01 12:42:12 - PHP Warning:  include(): Failed opening '../../parts/header.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 196
+2015-12-01 12:44:09 - PHP Warning:  include(header/menu.php): failed to open stream: No such file or directory in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 202
+2015-12-01 12:44:09 - PHP Warning:  include(): Failed opening 'header/menu.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 202
+2015-12-01 12:44:09 - PHP Warning:  include(header/hero.php): failed to open stream: No such file or directory in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 203
+2015-12-01 12:44:09 - PHP Warning:  include(): Failed opening 'header/hero.php' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\header.tpl on line 203
+2015-12-01 14:16:19 - PHP Notice:  Undefined variable: informations in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 29
+2015-12-01 14:16:19 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 29
+2015-12-01 14:17:12 - PHP Notice:  Undefined variable: informations in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 28
+2015-12-01 14:23:06 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 43

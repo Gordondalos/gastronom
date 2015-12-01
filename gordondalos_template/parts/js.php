@@ -55,7 +55,7 @@
     })();</script>
 
 <a href="#" id="toTop" class="toTop fa fa-angle-up" style="display: block;"></a>
-<div class="styleswitcher"><button class="styleswitcher_toggle"></button><h2 class="styleswitcher_title">This customization tool allows you to make color changes in your theme.</h2><div class="styleswitcher_cnt"><button id="colorScheme0" class="styleswitcher_scheme" style="background: url(http://livedemo00.template-help.com/wt_55444/images/sh-1.jpg);"></button> <button id="colorScheme1" class="styleswitcher_scheme" data-url="css/colorScheme-1.css" style="background: url(http://livedemo00.template-help.com/wt_55444/images/sh-2.jpg);"></button> <button id="colorScheme2" class="styleswitcher_scheme" data-url="css/colorScheme-2.css" style="background: url(http://livedemo00.template-help.com/wt_55444/images/sh-3.jpg);"></button> <button id="colorScheme3" class="styleswitcher_scheme" data-url="css/colorScheme-3.css" style="background: url(http://livedemo00.template-help.com/wt_55444/images/sh-4.jpg);"></button> </div></div>
+
 <div class="rd-mobilemenu"><ul class="rd-mobilemenu_ul"><li class="active"><a href="./" class="rd-with-ul">Home<span class="rd-submenu-toggle"></span></a><ul class="rd-mobilemenu_submenu" style="display: none;">
                 <li><a href="#">Delivery time</a></li>
                 <li><a href="#">Forms of payment</a></li>

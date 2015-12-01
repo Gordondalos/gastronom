@@ -1,36 +1,58 @@
 <div id="stuck_container" class="stuck_container">
     <div class="brand primary-color">
-        <div class="brand_img bg-primary"><img src="catalog/view/theme/gordondalos/images/brand_img.png" alt=""></div>
-        <h1 class="brand_name"><a href="./">Sancho</a></h1>
 
-        <p class="brand_slogan">food delivery</p>
+        <div class="brand_img bg-primary"><img src="<?php echo $logo; ?>" alt="<?php echo $name; ?>"></div>
+        <h1 class="brand_name"><a href="./"><?php echo $name; ?></a></h1>
+        <p class="brand_slogan"><?php echo $description; ?></p>
     </div>
     <nav class="nav">
         <ul data-type="navbar" class="sf-menu">
-            <li class="active"><a href="./">Home</a>
+
+            <li class="active"><a href="./">Товары</a>
                 <ul>
-                    <li><a href="#">Delivery time</a></li>
-                    <li><a href="#">Forms of payment</a></li>
-                    <li><a href="#">What we deliver</a>
-                        <ul>
-                            <li><a href="#">fresh</a></li>
-                            <li><a href="#">archive</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Advantages</a></li>
-                    <li><a href="#">Testimonials</a></li>
+                    <?php foreach ($categories as $category) { ?>
+                        <?php if ($category['children']) { ?>
+                            <li>
+                                <a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown">
+                                    <?php echo $category['name']; ?>
+                                </a>
+
+
+
+                                <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
+                                    <ul>
+                                        <?php foreach ($children as $child) { ?>
+                                            <li>
+                                                <a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a>
+                                            </li>
+                                        <?php } ?>
+                                    </ul>
+                                <?php } ?>
+
+
+                            </li>
+                        <?php } else { ?>
+                            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+                        <?php } ?>
+                    <?php } ?>
                 </ul>
             </li>
-            <li><a href="index-1.html">About us</a>
-            </li>
-            <li><a href="index-2.html">How to order</a>
-            </li>
-            <li><a href="index-3.html">FAQ</a>
-            </li>
-            <li><a href="index-4.html">Jobs</a>
-            </li>
-            <li><a href="index-5.html">Contacts</a>
-            </li>
+
+            <?php foreach ($informations as $information) { ?>
+                <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a>
+                </li>
+            <?php } ?>
+
+
+            <li><?php echo $cart; ?></li>
+
+
+
+
+
         </ul>
+
+
+
     </nav>
 </div>
