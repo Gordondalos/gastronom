@@ -5,12 +5,10 @@
 <body>
 <div class="page">
 
-    <?php include"parts/header.php"?>
-    <?php include"parts/main.php"?>
-    <?php include"parts/footer.php"?>
-
+    <?php include "parts/header.php"?>
+    <?php include "parts/main.php"?>
+    <?php include "parts/footer.php"?>
 
 </div>
 <?php include"parts/js.php"?>
-</body>
 </html>
