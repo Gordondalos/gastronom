@@ -5,7 +5,7 @@
         <div class="row">
             <?php foreach ($products as $product) { ?>
                 <div class="col-lg-3 col-md-4 col-xs-6 col-sm-6">
-                    <a href="#" class="link_wr">
+                    <a href="<?php echo $product['href']; ?>" class="link_wr">
 
                         <img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>"
                              title="<?php echo $product['name']; ?>"/>

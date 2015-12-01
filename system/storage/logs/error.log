@@ -18,3 +18,4 @@
 2015-12-01 18:54:33 - PHP Notice:  Undefined index: img in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
 2015-12-01 18:54:33 - PHP Notice:  Undefined index: img in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
 2015-12-01 18:54:33 - PHP Notice:  Undefined index: img in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 19:45:48 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\gastronom\admin\controller\module\featured.php on line 124
