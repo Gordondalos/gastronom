@@ -1,6 +1,4 @@
 
-<?php //var_dump($class);?>
-
 <?php if($class == "common-home" ){?>
 <section class="header-bg">
     <div class="container">

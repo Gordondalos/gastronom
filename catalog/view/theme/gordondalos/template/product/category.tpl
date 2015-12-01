@@ -28,7 +28,7 @@
       <?php } ?>
 
       <?php if ($categories) { ?>
-      <h3><?php echo $text_refine; ?></h3>
+      <p><?php echo $text_refine; ?></p>
       <?php if (count($categories) <= 5) { ?>
       <div class="row">
         <div class="col-sm-3">

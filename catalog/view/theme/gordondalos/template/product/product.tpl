@@ -165,7 +165,7 @@
           <div id="product">
             <?php if ($options) { ?>
             <hr>
-            <h3><?php echo $text_option; ?></h3>
+            <h4><?php echo $text_option; ?></h4>
             <?php foreach ($options as $option) { ?>
             <?php if ($option['type'] == 'select') { ?>
             <div class="form-group<?php echo ($option['required'] ? ' required' : ''); ?>">
@@ -289,7 +289,7 @@
             <?php } ?>
             <?php if ($recurrings) { ?>
             <hr>
-            <h3><?php echo $text_payment_recurring ?></h3>
+            <h4><?php echo $text_payment_recurring ?></h4>
             <div class="form-group required">
               <select name="recurring_id" class="form-control">
                 <option value=""><?php echo $text_select; ?></option>
@@ -332,7 +332,7 @@
         </div>
       </div>
       <?php if ($products) { ?>
-      <h3><?php echo $text_related; ?></h3>
+      <h4><?php echo $text_related; ?></h4>
       <div class="row">
         <?php $i = 0; ?>
         <?php foreach ($products as $product) { ?>

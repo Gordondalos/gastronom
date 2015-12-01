@@ -70,7 +70,6 @@ include('catalog/view/theme/gordondalos/js/jquery.easing.1.3.js');
 })(jQuery);
 
 
-
 /* Copyright Year
  ========================================================*/
 ;
@@ -95,7 +94,6 @@ include('catalog/view/theme/gordondalos/js/jquery.easing.1.3.js');
 (function ($) {
     include('catalog/view/theme/gordondalos/js/jquery.rd-navbar.js');
 })(jQuery);
-
 
 
 /* WOW
@@ -206,4 +204,19 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 ;
 (function ($) {
     include('catalog/view/theme/gordondalos/js/jquery.rd-parallax.js');
+})(jQuery);
+
+
+/* Подцветка меню ===========================*/
+
+;
+(function ($) {
+    var url = document.location.href;
+    $.each($("a.menus"), function () {
+        var a = $(this);
+
+        if (a.attr('href') == url) {
+            a.parent().addClass('active');
+        }
+    });
 })(jQuery);

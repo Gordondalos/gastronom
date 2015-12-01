@@ -27,3 +27,4 @@
 2015-12-01 21:53:15 - PHP Notice:  Use of undefined constant href - assumed 'href' in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\hero.tpl on line 1
 2015-12-01 21:53:15 - PHP Notice:  Undefined index: href in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\hero.tpl on line 1
 2015-12-01 21:53:25 - PHP Notice:  Array to string conversion in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\hero.tpl on line 1
+2015-12-01 22:43:23 - PHP Notice:  Undefined variable: category in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 11

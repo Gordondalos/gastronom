@@ -122,7 +122,7 @@ strong {
 }
 
 .secondary4-color {
-  color: #2089b9;
+  color: #eb441a;
 }
 
 .secondary5-color {
@@ -1446,7 +1446,24 @@ footer{
   margin-bottom: 0;
 }
 
+.breadcrumb{
+  margin-top: 28px;
+}
 
+.sf-menu ul{
+  z-index: 20;
+}
+
+.brand_slogan{
+  bottom: 12px;
+}
+.price-old{
+  text-decoration: line-through;
+}
+
+#content .row{
+  margin-top: 0px;
+}
 
 
 
