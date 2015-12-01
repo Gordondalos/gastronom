@@ -3,8 +3,10 @@
         <h3>What we deliver</h3>
 
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-xs-6 col-sm-6"><a href="#" class="link_wr"><img
-                        src="catalog/view/theme/gordondalos/images/page-1_img27.jpg" alt=""><span class="overlay"></span>
+            <div class="col-lg-3 col-md-4 col-xs-6 col-sm-6">
+                <a href="#" class="link_wr">
+                    <img src="catalog/view/theme/gordondalos/images/page-1_img27.jpg" alt="">
+                    <span class="overlay"></span>
 
                     <div class="content_wr">
                         <p class="price">$16.99</p>
@@ -12,7 +14,10 @@
 
                         <p>Freshly grilled chicken, salad mix, peas, Parmesan, bacon, croutons.</p>
                     </div>
-                </a></div>
+                </a>
+            </div>
+
+
             <div class="col-lg-3 col-md-4 col-xs-6 col-sm-6"><a href="#" class="link_wr"><img
                         src="catalog/view/theme/gordondalos/images/page-1_img28.jpg" alt=""><span class="overlay"></span>
 

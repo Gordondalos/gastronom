@@ -10,3 +10,11 @@
 2015-12-01 14:16:19 - PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 29
 2015-12-01 14:17:12 - PHP Notice:  Undefined variable: informations in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 28
 2015-12-01 14:23:06 - PHP Notice:  Undefined variable: text_information in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\common\menu.tpl on line 43
+2015-12-01 18:54:22 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 18:54:23 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 18:54:23 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 18:54:23 - PHP Notice:  Undefined index: image in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 18:54:33 - PHP Notice:  Undefined index: img in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 18:54:33 - PHP Notice:  Undefined index: img in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 18:54:33 - PHP Notice:  Undefined index: img in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
+2015-12-01 18:54:33 - PHP Notice:  Undefined index: img in C:\xampp\htdocs\gastronom\catalog\view\theme\gordondalos\template\module\featured.tpl on line 10
