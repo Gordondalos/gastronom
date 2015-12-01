@@ -97,66 +97,6 @@ include('catalog/view/theme/gordondalos/js/jquery.easing.1.3.js');
 })(jQuery);
 
 
-///* Google Map
-// ========================================================*/
-//;
-//(function ($) {
-//    var o = document.getElementById("google-map");
-//    if (o) {
-//        include('//maps.google.com/maps/api/js?sensor=false');
-//        include('catalog/view/theme/gordondalos/js/jquery.rd-google-map.js');
-//
-//        $(document).ready(function () {
-//            var o = $('#google-map');
-//            if (o.length > 0) {
-//                o.googleMap({
-//                    styles: [{
-//                        "featureType": "administrative.locality",
-//                        "elementType": "all",
-//                        "stylers": [{"hue": "#2c2e33"}, {"saturation": 7}, {"lightness": 19}, {"visibility": "on"}]
-//                    }, {
-//                        "featureType": "landscape",
-//                        "elementType": "all",
-//                        "stylers": [{"hue": "#ffffff"}, {"saturation": -100}, {"lightness": 100}, {"visibility": "simplified"}]
-//                    }, {
-//                        "featureType": "poi",
-//                        "elementType": "all",
-//                        "stylers": [{"hue": "#ffffff"}, {"saturation": -100}, {"lightness": 100}, {"visibility": "off"}]
-//                    }, {
-//                        "featureType": "poi",
-//                        "elementType": "labels.text.fill",
-//                        "stylers": [{"visibility": "on"}]
-//                    }, {
-//                        "featureType": "road",
-//                        "elementType": "geometry",
-//                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": 31}, {"visibility": "simplified"}]
-//                    }, {
-//                        "featureType": "road",
-//                        "elementType": "labels",
-//                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": 31}, {"visibility": "on"}]
-//                    }, {
-//                        "featureType": "road.arterial",
-//                        "elementType": "labels",
-//                        "stylers": [{"hue": "#bbc0c4"}, {"saturation": -93}, {"lightness": -2}, {"visibility": "simplified"}]
-//                    }, {
-//                        "featureType": "road.local",
-//                        "elementType": "geometry",
-//                        "stylers": [{"hue": "#e9ebed"}, {"saturation": -90}, {"lightness": -8}, {"visibility": "simplified"}]
-//                    }, {
-//                        "featureType": "transit",
-//                        "elementType": "all",
-//                        "stylers": [{"hue": "#e9ebed"}, {"saturation": 10}, {"lightness": 69}, {"visibility": "on"}]
-//                    }, {
-//                        "featureType": "water",
-//                        "elementType": "all",
-//                        "stylers": [{"hue": "#e9ebed"}, {"saturation": -78}, {"lightness": 67}, {"visibility": "simplified"}]
-//                    }]
-//                });
-//            }
-//        });
-//    }
-//})
-//(jQuery);
 
 /* WOW
  ========================================================*/

@@ -63,11 +63,12 @@
 
     <link rel="icon" href="catalog/view/theme/gordondalos/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="catalog/view/theme/gordondalos/css/grid.css">
-    <link rel="stylesheet" href="catalog/view/theme/gordondalos/css/style.css">
+
     <link rel="stylesheet" href="catalog/view/theme/gordondalos/css/search.css">
     <link rel="stylesheet" href="catalog/view/theme/gordondalos/css/google-map.css">
     <link rel="stylesheet" href="catalog/view/theme/gordondalos/css/owl-carousel.css">
     <link rel="stylesheet" href="catalog/view/theme/gordondalos/css/styleswitcher.css"/>
+    <link rel="stylesheet" href="catalog/view/theme/gordondalos/css/style.css">
 
 
     <?php foreach ($styles as $style) { ?>

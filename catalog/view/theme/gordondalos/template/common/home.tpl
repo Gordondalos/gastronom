@@ -28,7 +28,7 @@
 <!--    --><?php //include"category.php"?>
 <!--    --><?php //include"gallery.php"?>
 <!--    --><?php //include"producer.php"?>
-    <?php include"paralax.php"?>
+<!--    --><?php //include"paralax.php"?>
 
 
     <!--    --><?php //include"main/slider.php"?>

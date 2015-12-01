@@ -1,10 +1,3 @@
-/**
- * Created by PhpStorm.
- * User: Gordondalos
- * Date: 01.12.2015
- * Time: 9:30
- */
-
 
 <script src="catalog/view/theme/gordondalos/js/script.js"></script>
 <script src="catalog/view/theme/gordondalos/js/jquery.cookie.js"></script>
@@ -13,7 +6,6 @@
 <script src="catalog/view/theme/gordondalos/js/jquery.ui.totop.js"></script>
 <script src="catalog/view/theme/gordondalos/js/superfish.js"></script>
 <script src="catalog/view/theme/gordondalos/js/jquery.rd-navbar.js"></script>
-<!--<script src="//maps.google.com/maps/api/js?sensor=false"></script>-->
 <script src="catalog/view/theme/gordondalos/js/jquery.rd-google-map.js"></script>
 <script src="catalog/view/theme/gordondalos/js/wow.js"></script>
 <script src="catalog/view/theme/gordondalos/js/mailform/jquery.form.min.js"></script>

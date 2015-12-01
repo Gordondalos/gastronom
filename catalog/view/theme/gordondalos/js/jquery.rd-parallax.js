@@ -154,6 +154,7 @@
                 if (parallax.isTouched || parallax.isInit) {
                     parallax.$image.stop().animate({pos: pos}, {
                         step: function (pos) {
+                            pos = pos -100;
                             $(this).css('transform', 'translate3d(0, ' + pos + 'px, 0)');
                         },
                         duration: parallax.options.duration
@@ -162,6 +163,7 @@
                     parallax.isInit = false;
                 }
             } else {
+                pos = pos -100;
                 parallax.$image.css('transform', 'translate3d(0, ' + pos + 'px, 0)');
             }
 
