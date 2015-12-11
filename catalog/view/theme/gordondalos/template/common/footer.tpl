@@ -1,65 +1,3 @@
-<!--<div class="container well">-->
-<!--    <div class="row">-->
-<!--        <div class="col-md-3 col-xs-6 col-sm-6">-->
-<!--            <h4 class="primary-color">Get in touch</h4>-->
-<!--            <address class="secondary5-color">8901 Marmora Road <br/>Glasgow, DO4 89GR.</address>-->
-<!--            <ul class="contact-list">-->
-<!--                <li>-->
-<!--                    <dl>-->
-<!--                        <dt>Freephone:</dt>-->
-<!--                        <dd><a href="callto:x">+1 800 559 6580</a></dd>-->
-<!--                    </dl>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <dl>-->
-<!--                        <dt>Telephone:</dt>-->
-<!--                        <dd><a href="callto:x">+1 959 603 6035</a></dd>-->
-<!--                    </dl>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <dl>-->
-<!--                        <dt>FAX:</dt>-->
-<!--                        <dd class="mod1"><a href="callto:x">+ 1 504 889 9898</a></dd>-->
-<!--                    </dl>-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <dl>-->
-<!--                        <dt>E-mail:</dt>-->
-<!--                        <dd><a href="mailto:x">mail@demolink.org</a></dd>-->
-<!--                    </dl>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--        <div class="col-md-2 col-xs-6 col-sm-6">-->
-<!--            <h4 class="primary-color">Menu</h4>-->
-<!--            <ul class="nav-list">-->
-<!--                <li><a href="./">Home</a></li>-->
-<!--                <li><a href="index-1.html">About us</a></li>-->
-<!--                <li><a href="index-2.html">How to order</a></li>-->
-<!--                <li><a href="index-3.html">FAQ</a></li>-->
-<!--                <li><a href="index-4.html">Jobs</a></li>-->
-<!--                <li><a href="index-5.html">Contacts</a></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--        <div class="col-md-3 col-xs-6 col-sm-6">-->
-<!--            <h4 class="primary-color">Follow us</h4>-->
-<!--            <ul class="inline-list">-->
-<!--                <li><a href="#" class="fa fa-google-plus"></a></li>-->
-<!--                <li><a href="#" class="fa fa-twitter"></a></li>-->
-<!--                <li><a href="#" class="fa fa-facebook"></a></li>-->
-<!--                <li><a href="#" class="fa fa-pinterest"></a></li>-->
-<!--                <li><a href="#" class="fa fa-linkedin"></a></li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--        <div class="col-md-offset-1 col-md-3 col-xs-6 col-sm-6">-->
-<!--            <h4 class="primary-color">Join our newsletter</h4>-->
-<!---->
-<!--            <p>And always stay informed of the latest company news and events!</p><a href="#" class="btn">Sign-->
-<!--                up</a>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
 
 <footer>
 
@@ -138,7 +76,7 @@
 <div class="map">
 
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255984.9973151099!2d30.04488610890621!3d59.91749254400413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1448981123194" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!--        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255984.9973151099!2d30.04488610890621!3d59.91749254400413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696378cc74a65ed%3A0x6dc7673fab848eff!2z0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LM!5e0!3m2!1sru!2sru!4v1448981123194" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 
 </div>
 

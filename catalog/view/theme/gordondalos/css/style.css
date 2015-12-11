@@ -279,7 +279,7 @@ h3 + p {
 }
 
 .bg-secondary6 {
-  background: #ebebeb;
+  background: #fff;
 }
 .bg-secondary6 p {
   font-size: 14px;
@@ -1256,6 +1256,7 @@ main {
 .well3 {
   padding-top: 135px;
   padding-bottom: 125px;
+  margin-bottom: -22px;
 }
 
 .well4 {
@@ -1279,11 +1280,17 @@ main {
   padding-bottom: 73px;
 }
 
+.well{
+  border:none;
+  background-color: white;
+  box-shadow: none;
+
+}
 /*========================================================
                      FOOTER  Styles
 =========================================================*/
 footer {
-  border-top: 5px solid #eb441a;
+
   color: #4a4a4a;
 }
 footer .well {
@@ -1426,6 +1433,10 @@ footer * + p {
 }
 
 
+.tab-content{
+  margin-bottom: 100px;
+}
+
 #search .form-control {
   border-color: #66afe9;
   outline: 0;
@@ -1436,10 +1447,25 @@ footer * + p {
 }
 
 
+#search .input-lg{
+  padding: 30px;
+}
+
+#search .btn-lg{
+  padding: 21px 77px;
+  background: #ffc116;
+  font-size: 20px;
+  color: black;
+  border: none;
+  border-radius: 0;
+}
+
+
 
 footer{
   padding: 40px 0 20px;
-  margin-top: 10px;
+  margin-top: 22px;
+
 }
 
 #carousel0 {
@@ -1465,5 +1491,27 @@ footer{
   margin-top: 0px;
 }
 
+.content_wr .fa-heart, .fa-shopping-cart{
+   font-size: 25px;
 
 
+ }
+
+.content_wr button span.hidden-xs{
+  font-size: 25px;
+
+}
+
+.content_wr .button-group{
+  padding: 5px 0;
+  width: 100%;
+}
+
+
+main .roww{
+  margin: 0;
+}
+
+.well3.parallax.parallax1{
+  margin: 0 -15px -22px -15px;
+}
