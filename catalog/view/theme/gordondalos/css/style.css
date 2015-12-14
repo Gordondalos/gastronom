@@ -1515,3 +1515,7 @@ main .roww{
 .well3.parallax.parallax1{
   margin: 0 -15px -22px -15px;
 }
+
+#cart{
+  margin-bottom: 0;
+}
