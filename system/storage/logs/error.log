@@ -32,3 +32,7 @@
 2015-12-11 14:52:33 - PHP Warning:  ftp_login(): Login incorrect. in /home/gordon_dalos/web/gastronom.gordondalos.dvl.ecomlab.ru/public_html/admin/controller/extension/installer.php on line 295
 2015-12-11 14:54:43 - PHP Warning:  ftp_login(): Login incorrect. in /home/gordon_dalos/web/gastronom.gordondalos.dvl.ecomlab.ru/public_html/admin/controller/extension/installer.php on line 295
 2015-12-11 14:58:55 - PHP Warning:  ftp_login(): Login incorrect. in /home/gordon_dalos/web/gastronom.gordondalos.dvl.ecomlab.ru/public_html/admin/controller/extension/installer.php on line 295
+2015-12-14 16:38:42 - PHP Warning:  include(menu.tpl): failed to open stream: No such file or directory in C:\xampp\htdocs\gastronom\vqmod\vqcache\vq2-catalog_view_theme_gordondalos_template_common_header.tpl on line 155
+2015-12-14 16:38:42 - PHP Warning:  include(): Failed opening 'menu.tpl' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\gastronom\vqmod\vqcache\vq2-catalog_view_theme_gordondalos_template_common_header.tpl on line 155
+2015-12-14 16:38:42 - PHP Warning:  include(hero.tpl): failed to open stream: No such file or directory in C:\xampp\htdocs\gastronom\vqmod\vqcache\vq2-catalog_view_theme_gordondalos_template_common_header.tpl on line 156
+2015-12-14 16:38:42 - PHP Warning:  include(): Failed opening 'hero.tpl' for inclusion (include_path='.;C:\xampp\php\PEAR') in C:\xampp\htdocs\gastronom\vqmod\vqcache\vq2-catalog_view_theme_gordondalos_template_common_header.tpl on line 156
