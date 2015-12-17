@@ -275,7 +275,7 @@ h3 + p {
 }
 
 .bg-secondary4 {
-  background: #2089b9;
+  background: #ffc116;
 }
 
 .bg-secondary6 {
@@ -424,7 +424,7 @@ h3 + p {
   border-radius: 50%;
 }
 .index-list li.bg_mod1:before {
-  background: #2089b9;
+  background: #ffc116;
 }
 .index-list li.bg_mod2:before {
   background: #eb441a;
@@ -1518,4 +1518,13 @@ main .roww{
 
 #cart{
   margin-bottom: 0;
+}
+
+
+/* Gradent to all drop down menus */
+.dropdown-menu li > a:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ffc116;
+  background-image: none;
 }
