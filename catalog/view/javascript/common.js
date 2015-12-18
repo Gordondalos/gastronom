@@ -23,6 +23,21 @@ function getURLVar(key) {
 }
 
 $(document).ready(function() {
+
+	$('.mybuttontothecart').click(function(){
+		window.location.href = "?route=checkout/cart";
+	});
+
+
+	// выравниивание третьего уровня меню
+	$('a.dropdown-toggle').mouseover(function(){
+
+		var pos = $(this).position().top;
+		$('a.dropdown-toggle + ul').css('top',pos);
+	});
+
+
+
 	// Highlight any found errors
 	$('.text-danger').each(function() {
 		var element = $(this).parent().parent();

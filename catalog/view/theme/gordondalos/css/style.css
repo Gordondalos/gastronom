@@ -358,7 +358,7 @@ h3 + p {
   -webkit-transform: translateY(-50%) scale(1.1);
   transform: translateY(-50%) scale(1.1);
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .flex-list, .flex-list li {
     display: block;
   }
@@ -555,7 +555,7 @@ h3 + p {
 .link_wr .content_wr {
   position: absolute;
   text-align: left;
-  padding-right: 85px;
+  padding-right: 10px;
   bottom: -200px;
   left: 15px;
   color: #fff;
@@ -668,10 +668,10 @@ h3 + p {
   position: relative;
   height: 134px;
   width: 134px;
-  border: 1px solid #9c9c9e;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+  /*border: 1px solid #9c9c9e;*/
+  /*-webkit-border-radius: 50%;*/
+  /*-moz-border-radius: 50%;*/
+  /*border-radius: 50%;*/
 }
 .border_img img {
   position: absolute;
@@ -770,7 +770,7 @@ h3 + p {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 235px;
+  width: 320px;
   padding: 20px 0;
   background: #fff;
   z-index: 2;
@@ -803,12 +803,12 @@ h3 + p {
 }
 
 .sf-menu ul ul {
-  position: absolute;
-  top: 41.6%;
-  left: 250px;
+  position: relative
+  top: 0;
+  left: 320px;
   background: #fff;
   color: #fff;
-  width: 200px;
+  width: 320px;
   z-index: 4;
   padding: 0;
 }
@@ -841,7 +841,7 @@ h3 + p {
   color: #fff;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   .sf-menu {
     display: none;
   }
@@ -1065,7 +1065,7 @@ h3 + p {
   transform: rotate3d(0, 0, 1, 40deg);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   body {
     padding-top: 56px;
   }
@@ -1417,7 +1417,7 @@ footer * + p {
     line-height: 35px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
   footer .inline-list li + li {
     margin-left: 4px;
   }
@@ -1528,3 +1528,61 @@ main .roww{
   background-color: #ffc116;
   background-image: none;
 }
+
+
+@media (max-width: 768px){
+  h1.brand_name{
+    font-size: 43px;
+  }
+  header .header-bg h3{
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  h3,h1,h2{
+    font-size: 30px;
+  }
+
+  #search .input-lg{
+    padding: 10px;
+  }
+  #search .btn-lg{
+    padding: 11px;
+  }
+
+  .well, #content{
+    padding: 0;
+  }
+
+  .pull-right{
+    float: none !important;
+    margin: 10px  auto;
+  }
+
+  .pull-right a{
+    margin: 10px;
+  }
+
+  .pull-left a{
+    margin: 10px;
+
+  }
+
+
+
+
+}
+
+
+
+  #d_quickcheckout .btn-group-justified{
+    display: block;
+  }
+
+  #d_quickcheckout .btn-group-justified > .btn-group{
+    display: block  !important;
+    width: 100% !important;
+    padding: 5px;
+    margin: 10px 0;
+
+  }
